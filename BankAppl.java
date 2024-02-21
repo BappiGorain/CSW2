@@ -61,12 +61,17 @@ class BankAcc {
 
 public class BankAppl {
 
-	static Object search_bankAcc(ArrayList<BankAcc> list, Object o) {
-		if (list.contains(o)) {
-			return o;
-		} else {
-			return null;
+	static String search_bankAcc(ArrayList<BankAcc> list, Object o) {
+		for(Bank bank: list)
+		{
+			if(bank == o)
+			{
+				System.out.println(o);
+				return "Bank account found"
+			}
 		}
+		return "Bank account not found";
+				
 	}
 	
 	static void mergeAccount(ArrayList<BankAcc> list,Object ob1)
@@ -92,10 +97,7 @@ public class BankAppl {
 		list.add(b4);
 		list.add(b5);
 		BankAcc b1_1 = new BankAcc(1234, "Customer1", 1000);
-		BankAcc x = (BankAcc) search_bankAcc(list, b1_1);
-
-		System.out.println("Your Searched Acc: " + x);
-		
+		System.out.println(search_bankAcc(list, b1_1));		
 		
 		
 	}
