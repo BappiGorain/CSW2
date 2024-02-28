@@ -1,5 +1,3 @@
-package java;
-
 
 import java.util.*;
 
@@ -45,6 +43,8 @@ class SavingAccount extends Account {
     void deposite() {
         double amount = (getBalance() * interest) / 100;
         System.out.println("Your interest is :" + amount);
+        setBalance(getBalance() + amount);
+        System.out.println("Your total Balace is : " + getBalance());
     }
 
     @Override
@@ -57,7 +57,7 @@ class SavingAccount extends Account {
         } else {
             System.out.println("Money Withdrawl RS: " + amt);
             setBalance(getBalance() - amt);
-            System.out.println("Your current Balance is + " + getBalance());
+            System.out.println("Your current Balance is " + getBalance());
         }
     }
 
@@ -94,8 +94,15 @@ class CurrentAccount extends Account {
             System.out.println("Out of Limit");
         } else {
             System.out.println("Money Withdrawl RS: " + amt);
-            setBalance(getBalance() - amt);
-            System.out.println("Your current Balance is + " + getBalance());
+            if(getBalance() > amt)
+            {
+            	System.out.println("Not Enough Money");
+            }
+            else
+            {
+            	setBalance(getBalance() - amt);
+                System.out.println("Your current Balance is + " + getBalance());
+            }
         }
 
     }
@@ -109,8 +116,12 @@ public class BankApplication{
         sa.setBalance(2000);
         sa.setInterest(10);
         sa.deposite();
+        sa.withdrawl();
 
         ca.setBalance(1000);
+        ca.setOverDraft(1500);
+        ca.deposite();
+        ca.withdrawl();
 
     }
 
