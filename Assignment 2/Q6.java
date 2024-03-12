@@ -16,11 +16,6 @@ class Animal {
     public int hashCode() {
         return Objects.hash(name, color, type);
     }
-
-    // Method to print unique ID
-    public void printUniqueId() {
-        System.out.println("Unique ID for " + name + ": " + hashCode());
-    }
 }
 
 public class Q6 {
@@ -31,8 +26,8 @@ public class Q6 {
         Animal lion = new Animal("Lion", "Yellow", "Wild");
 
         // Printing hash codes for the objects
-        dog.printUniqueId();
-        cat.printUniqueId();
-        lion.printUniqueId();
+        System.out.println("Dog Hash Code: " + dog.hashCode());
+        System.out.println("Cat Hash Code: " + cat.hashCode());
+        System.out.println("Lion Hash Code: " + lion.hashCode());
     }
 }
