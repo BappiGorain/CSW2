@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-class practice {
+class test {
     public static void main(String args[]) throws IOException
     {
         BufferedReader reader = new BufferedReader(new FileReader("input.txt"));
