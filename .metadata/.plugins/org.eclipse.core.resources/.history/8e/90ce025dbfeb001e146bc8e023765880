@@ -1,0 +1,39 @@
+/*
+class GarbageCollector
+{
+	String myObject;
+	public GarbageCollector(String myObject) 
+	{
+		this.myObject = myObject;
+	}
+	
+	public static void main(String[] args)
+	{
+		new GarbageCollector("testObject1");
+	}
+	@Override
+	protected void finalize() throws Throwable
+	{
+		System.out.println("Garbage Collection is successful for " + this.myObject);
+	}
+}  
+*/
+
+
+public class GarbageCollector {
+     public static void main(String[] args) 
+    { 
+        GarbageCollector obj = new GarbageCollector(); 
+      
+        obj = null; 
+       
+        System.gc(); 
+        System.out.println("end of garbage collection"); 
+
+    } 
+    @Override
+    protected void finalize() 
+    { 
+        System.out.println("finalize method called"); 
+    } 
+}
