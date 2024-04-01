@@ -1,0 +1,21 @@
+package lecture1;
+
+interface Function<T,R> 
+{
+	public R apply(T s);
+}
+
+public class Function12
+{
+	public static void main(String[] args)
+	{
+		String s = "ABCD";
+		
+		Function<String,Character> f = (s) ->
+		{
+			return s.charAt(0);
+		};
+		
+		System.out.println(f);
+	}
+}

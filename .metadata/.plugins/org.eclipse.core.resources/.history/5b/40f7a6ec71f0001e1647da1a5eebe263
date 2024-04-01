@@ -1,0 +1,19 @@
+package lecture1;
+
+import java.util.function.Function;
+
+public class Function12
+{
+	public static void main(String[] args)
+	{
+		
+		Function f = new Function(int a)
+		{
+			public int apply()
+			{
+				return a;
+			}
+		};
+		
+	}
+}
