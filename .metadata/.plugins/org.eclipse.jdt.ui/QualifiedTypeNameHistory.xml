@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="Student"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
@@ -31,7 +30,6 @@
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="Lecture"/>
     <fullyQualifiedTypeName name="GarbageCollector"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="lecture.Student"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -44,4 +42,11 @@
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="Cgpa_Student"/>
+    <fullyQualifiedTypeName name="cgpa_implementer_Btrch"/>
+    <fullyQualifiedTypeName name="lecture1.Cgpa_Student"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="lecture1.Student123"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
 </qualifiedTypeNameHistroy>
