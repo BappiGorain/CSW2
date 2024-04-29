@@ -50,4 +50,5 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="InvalidTanException"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
 </qualifiedTypeNameHistroy>
