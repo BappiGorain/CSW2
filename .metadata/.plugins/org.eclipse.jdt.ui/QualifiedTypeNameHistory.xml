@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="Car"/>
     <fullyQualifiedTypeName name="EnrollmentSystem"/>
     <fullyQualifiedTypeName name="User"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="Student"/>
@@ -51,4 +50,6 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="InvalidTanException"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

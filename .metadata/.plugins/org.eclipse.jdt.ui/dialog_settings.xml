@@ -110,4 +110,6 @@
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
 </section>
