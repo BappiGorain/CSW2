@@ -1,0 +1,16 @@
+1. pwd -> present working directory
+2. ls -> list all items in the current folder
+3. cd .. -> go one folder down
+4. cd 'Directory name' -> change dire
+5. git init -> To initialize the git repository
+6. git add . -> To add all files to git Staging area
+7. git add 'File Name' -> To add
+8. mkdir 'File name' -> To create new Folder
+9. touch 'File name -> To create new file
+10. rm -r -> to remove any file/Folder
+11. git commit -m "Git Commit message" -> to commit the git repo and add some message
+12. git status -> To cheak the status of the file
+13. git log -> to cheak all the activity of the of the file
+14. git add remote origin link -> To intitialize the git repo to add
+15. git push origin main -> To push the files in to the git repo
+16. notepad 'File name' -> This will display the file in the notepad
