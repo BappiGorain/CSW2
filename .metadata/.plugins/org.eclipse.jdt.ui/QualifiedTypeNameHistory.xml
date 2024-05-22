@@ -23,7 +23,6 @@
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
     <fullyQualifiedTypeName name="Exception"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="Lecture"/>
     <fullyQualifiedTypeName name="GarbageCollector"/>
@@ -33,11 +32,8 @@
     <fullyQualifiedTypeName name="FileReader"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="Cgpa_Student"/>
     <fullyQualifiedTypeName name="cgpa_implementer_Btrch"/>
     <fullyQualifiedTypeName name="lecture1.Cgpa_Student"/>
@@ -52,5 +48,9 @@
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.util.concurrent.CompletableFuture"/>
 </qualifiedTypeNameHistroy>
