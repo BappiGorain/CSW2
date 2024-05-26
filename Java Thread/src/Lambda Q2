@@ -1,0 +1,30 @@
+/*
+ Write a program that sorts a list of strings based on their lengths in descending order. Define a custom
+ comparator using a lambda expression that compares strings based on their lengths. Use the custom
+ comparator to sort the list of strings in descending order of length.
+ */
+
+
+import java.util.ArrayList;
+
+class Test
+{
+	public static void main(String args[])
+	{
+		ArrayList<String> list = new ArrayList<>();
+		list.add("Apple");
+		list.add("Banana");
+		list.add("Grapes");
+		list.add("BuleBerry");
+		list.add("DragonFruit");
+		
+		list.sort((s1,s2) -> {
+		 return Integer.compare(s2.length(), s1.length());
+		 });
+		
+		for(String s : list)
+		{
+			System.out.println(s);
+		}
+	}
+}
