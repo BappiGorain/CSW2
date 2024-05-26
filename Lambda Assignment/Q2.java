@@ -1,8 +1,4 @@
-/*
- Write a program that demonstrates lazy evaluation by creating a lazy sequence of prime numbers. Define a lazy
- sequence using lambda expressions that generates prime numbers. Demonstrate lazy evaluation by printing the first
- few prime numbers from the lazy sequence.
- */
+
 
 
 import java.util.ArrayList;
