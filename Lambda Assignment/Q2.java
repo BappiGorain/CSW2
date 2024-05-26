@@ -1,6 +1,3 @@
-
-
-
 import java.util.ArrayList;
 
 class Q2
